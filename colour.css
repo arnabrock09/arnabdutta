@@ -167,7 +167,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLZLxxBqjoxJws47YT1ykWPXctqfHi2r_k-Q&usqp=CAU") no-repeat center;
+    background: url("bg6.jpg") no-repeat center;
     height: 100vh;
     color: crimson;
     min-height: 100px;

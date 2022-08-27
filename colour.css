@@ -218,8 +218,9 @@ section .title::after{
 
 /* about section styling */
 .about{
+    padding-top: 170px;
     background-color: #1f2833;
-    padding-bottom: 150px;
+    padding-bottom: 170px;
 }
 .about .title::after{
     content: "who i am";
@@ -278,9 +279,9 @@ section .title::after{
     color: crimson;
 }
 .Project{
-    padding-top: 200px;
+    padding-top: 230px;
     background-color: #111;
-    padding-bottom: 275px;
+    padding-bottom: 350px;
 }
 .Project, .teams{
     color:#fff;

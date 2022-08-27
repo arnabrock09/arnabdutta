@@ -35,11 +35,11 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .projects, .skills, .contact, footer{
+.about, .Project, .skills, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content, 
-.projects .serv-content,
+.Project .serv-content,
 .skills .skills-content,
 .contact .contact-content{
     display: flex;
@@ -167,7 +167,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("bg6.jpg") no-repeat center;
+    background: url("image/bg6.jpg") no-repeat center;
     height: 100vh;
     color: crimson;
     min-height: 100px;
@@ -272,31 +272,32 @@ section .title::after{
     background: none;
 }
 
-/* services section styling */
-.projects .text{
+
+/* Project section styling */
+.Project .text{
     color: crimson;
 }
-.projects{
+.Project{
     padding-top: 200px;
     background-color: #111;
     padding-bottom: 275px;
 }
-.projects, .teams{
+.Project, .teams{
     color:#fff;
     background: #111;
 }
-.projects .title::before,
+.Project .title::before,
 .teams .title::before{
     background: #fff;
 }
-.projects .title::after,
+.Project .title::after,
 .teams .title::after{
     background: #111;
     content: "what i provide";
     color:#10d4c7;
     background-color: #111;
 }
-.projects .serv-content .card{
+.Project .serv-content .card{
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
@@ -305,28 +306,29 @@ section .title::after{
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.projects .serv-content .card:hover{
+.Project .serv-content .card:hover{
     background: #10d4c7;
 }
-.projects .serv-content .card .box{
+.Project .serv-content .card .box{
     transition: all 0.3s ease;
 }
-.projects .serv-content .card:hover .box{
+.Project .serv-content .card:hover .box{
     transform: scale(1.05);
 }
-.projects .serv-content .card i{
+.Project .serv-content .card i{
     font-size: 50px;
     color: crimson;
     transition: color 0.3s ease;
 }
-.projects .serv-content .card:hover i{
+.Project .serv-content .card:hover i{
     color: #fff;
 }
-.projects .serv-content .card .text{
+.Project .serv-content .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+
 
 /* skills section styling */
 .skills{
@@ -386,7 +388,7 @@ section .title::after{
     background: crimson;
 }
 .skills-content .right .html::before{
-    width: 90%;
+    width: 80%;
 }
 .skills-content .right .css::before{
     width: 60%;
@@ -394,6 +396,16 @@ section .title::after{
 .skills-content .right .js::before{
     width: 40%;
 }
+.skills-content .right .java::before{
+    width: 70%;
+}
+.skills-content .right .python::before{
+    width: 60%;
+}
+.skills-content .right .c::before{
+    width: 90%;
+}
+
 
 /* contact section styling */
 .contact{

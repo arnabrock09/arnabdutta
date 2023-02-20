@@ -598,14 +598,14 @@ footer span a:hover{
     }
     .navbar .menu{
         position: fixed;
-        height: 100vh;
+        height: 130vh;
         width: 100%;
         left: -100%;
         color:  crimson;
         top: 0;
         background: #111;
         text-align: center;
-        padding-top: 80px;
+        padding-top: 120px;
         transition: all 0.3s ease;
     }
     .navbar .menu.active{

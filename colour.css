@@ -166,6 +166,7 @@ section .title::after{
 
 /* home section styling */
 
+
 .home{
     display: flex;
     background: url("bg6.jpg") no-repeat center;
@@ -222,6 +223,7 @@ section .title::after{
     padding-top: 170px;
     background-color: #1f2833;
     padding-bottom: 170px;
+    width: 100%;
 }
 .about .title::after{
     content: "who i am";
@@ -424,7 +426,7 @@ section .title::after{
     background-color: #111;
 }
 .contact .contact-content .column{
-    width: calc(50% - 30px);
+    width: 45%
 }
 .contact .contact-content .text{
     font-size: 20px;
@@ -441,7 +443,9 @@ section .title::after{
     display: flex;
     height: 65px;
     align-items: center;
+    color: #10d4c7;
 }
+
 .contact .contact-content .row .info{
     margin-left: 30px;
 }
@@ -514,6 +518,7 @@ section .title::after{
 .contact .right form .button button:hover{
     color: #10d4c7;
     background: none;
+    
 }
 /* social media section styling */
 .sm{
@@ -588,6 +593,7 @@ footer span a:hover{
         padding: 0 50px;
     }
 }
+
 @media (max-width: 947px){
     .menu-btn{
         display: block;
@@ -662,5 +668,20 @@ footer span a:hover{
 }
 
 @media (max-width: 500px) {
-  
+
+    
+
+    .contact .right form .button{
+       width: 80%;
+       font-size: 80%;
+    }
+
+    .contact .row {
+       font-size: 80%;
+    }
+
+    .contact .cr{
+        font-size: 80%;
+    }
+    
 }
